@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { Button } from "@/components/ui/button";
-import { GlowingButton } from './ui/GlowingButton';
 import Image from "next/image";
 import TimelineStep from './TimelineStep';
 
