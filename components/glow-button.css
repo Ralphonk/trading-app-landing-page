@@ -1,0 +1,52 @@
+/* components/glow-button.css */
+.glowing-button-wrapper {
+    position: relative;
+    display: inline-block;
+    padding: 2px;
+    border-radius: 8px;
+    background: linear-gradient(130deg,
+            #ffffff,
+            #c0c0c0,
+            #ffffff,
+            #c0c0c0,
+            #ffffff);
+    background-size: 400% 400%;
+    animation: glow-animation 5s linear infinite;
+}
+
+@keyframes glow-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.glowing-button {
+    background-color: #6242A5 !important;
+    color: white !important;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 500;
+    z-index: 1;
+    position: relative;
+}
+
+.glowing-button-wrapper::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    z-index: 0;
+    border-radius: 10px;
+    background: inherit;
+    filter: blur(4px);
+}
