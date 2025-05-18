@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform, useInView, useAnimation } from 'framer
 import { useEffect, useRef } from 'react';
 import { Button } from "@/components/ui/button";
 import { GlowingButton } from './ui/GlowingButton';
+import Image from "next/image";
 
 const steps = [
     { id: 1, title: "Register your account" },
@@ -27,7 +28,7 @@ export default function Hero() {
         >
 
             {/* Background */}
-            <img
+            <Image
                 src="/bg-hero.png"
                 alt="Hero Background"
                 className="absolute inset-0 w-full h-full object-cover scale-110 blur-sm brightness-75 z-0"
