@@ -150,6 +150,7 @@ const PayoutHero: React.FC = () => {
                             alt="App Store"
                             width={120}
                             height={40}
+                            priority // optional: tells Next.js to preload it
                         />
                     </div>
                 </div>
