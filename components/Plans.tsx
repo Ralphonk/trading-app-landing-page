@@ -3,7 +3,7 @@
 import { useRef } from 'react';
 import { Button } from "@/components/ui/button";
 import { motion, useInView } from "framer-motion";
-import PricingCard from "@/components/PricingCard"; // Make sure the path is correct
+import PricingCard from "@/components/PricingCard"; 
 
 // Animation variants for each word
 const blurWordVariants = {
