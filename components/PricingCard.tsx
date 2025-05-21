@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import clsx from "clsx"; // Optional but recommended for cleaner class merging
+import clsx from "clsx"; 
 
 interface PricingCardProps {
     title: string;
