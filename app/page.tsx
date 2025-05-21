@@ -1,4 +1,3 @@
-// app/page.tsx
 import Hero from "@/components/Hero";
 import Plans from "@/components/Plans";
 import GetFundedSection from "@/components/GetFundedSection"
