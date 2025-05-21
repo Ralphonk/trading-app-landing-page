@@ -20,7 +20,7 @@ const blurWordVariants = {
     }),
 };
 
-// Your pricing data
+ // Pricing data
 const plansData = [
     {
         title: "Abcd Vintage",
